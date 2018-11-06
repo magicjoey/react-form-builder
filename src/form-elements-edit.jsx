@@ -167,7 +167,7 @@ export default class FormElementsEdit extends React.Component {
             <div className="checkbox">
               <label>
                 <input type="checkbox" checked={this_checked} value={true} onChange={this.editElementProp.bind(this, 'required', 'checked')} />
-                Required
+                必填
               </label>
             </div>
             { this.props.element.hasOwnProperty('readOnly') &&

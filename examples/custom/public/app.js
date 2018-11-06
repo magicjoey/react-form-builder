@@ -82907,13 +82907,13 @@ var Toolbar = function (_React$Component) {
     value: function _defaultItems() {
       return [{
         key: 'Header',
-        name: 'Header Text',
+        name: '头文本',
         icon: 'fa fa-header',
         static: true,
         content: 'Placeholder Text...'
       }, {
         key: 'Label',
-        name: 'Label',
+        name: '标签',
         static: true,
         icon: 'fa fa-font',
         content: 'Placeholder Text...'
@@ -82931,7 +82931,7 @@ var Toolbar = function (_React$Component) {
       }, {
         key: 'Dropdown',
         canHaveAnswer: true,
-        name: 'Dropdown',
+        name: '下拉框',
         icon: 'fa fa-caret-square-o-down',
         label: 'Placeholder Label',
         field_name: 'dropdown_',
@@ -82945,39 +82945,39 @@ var Toolbar = function (_React$Component) {
         field_name: 'tags_',
         options: []
       }, {
-        key: 'Checkboxes',
-        canHaveAnswer: true,
-        name: 'Checkboxes',
-        icon: 'fa fa-check-square-o',
-        label: 'Placeholder Label',
-        field_name: 'checkboxes_',
-        options: []
-      }, {
         key: 'RadioButtons',
         canHaveAnswer: true,
-        name: 'Multiple Choice',
+        name: '单项选择框',
         icon: 'fa fa-dot-circle-o',
         label: 'Placeholder Label',
         field_name: 'radio_buttons_',
         options: []
       }, {
+        key: 'Checkboxes',
+        canHaveAnswer: true,
+        name: '多项选择框',
+        icon: 'fa fa-check-square-o',
+        label: 'Placeholder Label',
+        field_name: 'checkboxes_',
+        options: []
+      }, {
         key: 'TextInput',
         canHaveAnswer: true,
-        name: 'Text Input',
+        name: '文本输入框',
         label: 'Placeholder Label',
         icon: 'fa fa-font',
         field_name: 'text_input_'
       }, {
         key: 'NumberInput',
         canHaveAnswer: true,
-        name: 'Number Input',
+        name: '数字输入框',
         label: 'Placeholder Label',
         icon: 'fa fa-plus',
         field_name: 'number_input_'
       }, {
         key: 'TextArea',
         canHaveAnswer: true,
-        name: 'Multi-line Input',
+        name: '多行文本框',
         label: 'Placeholder Label',
         icon: 'fa fa-text-height',
         field_name: 'text_area_'
@@ -82999,7 +82999,7 @@ var Toolbar = function (_React$Component) {
         key: 'DatePicker',
         canDefaultToday: true,
         canReadOnly: true,
-        name: 'Date',
+        name: '日期',
         icon: 'fa fa-calendar',
         label: 'Placeholder Label',
         field_name: 'date_picker_'
@@ -83019,7 +83019,7 @@ var Toolbar = function (_React$Component) {
         href: 'http://www.example.com'
       }, {
         key: 'Download',
-        name: 'File Attachment',
+        name: '上传附件',
         icon: 'fa fa-file',
         static: true,
         content: 'Placeholder file name ...',
